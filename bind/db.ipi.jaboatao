@@ -1,0 +1,10 @@
+$TTL	900
+@	IN	SOA	ipi.jaboatao. root.ipi.jaboatao. (
+			      2		; Serial
+			   3600		; Refresh
+			    600		; Retry
+			 604800		; Expire
+			    600 )	; Negative Cache TTL
+;
+@	IN	NS	ns1.ipi.jaboatao.
+ns1	IN	A	192.168.56.101
